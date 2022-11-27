@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: abu
+    tables:
+      - name: stg_customer_prs
+      - name: stg_customer_trs
+
