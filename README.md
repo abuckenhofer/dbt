@@ -28,4 +28,6 @@ Now check data in the target tables after the full load.
 Now check data in the target tables after delta load with persistent and transient staging tables.
 
 
-For an entire blog post with explanations, see: 
+For an entire blog post with explanations, see: [Materialization examples of Data Engineering with dbt](https://www.buckenhofer.com/2022/11/materialization-examples-of-data-engineering-with-dbt/) 
+
+and an introduction into dbt, see: [Data Engineering with dbt – first steps using PostgreSQL and Oracle](https://www.buckenhofer.com/2022/11/data-engineering-with-dbt-first-steps-using-postgresql-and-oracle/)
