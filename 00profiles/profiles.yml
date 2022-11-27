@@ -1,0 +1,12 @@
+scenarios:
+  outputs:
+    psq-dev:
+      dbname: postgres
+      host: localhost
+      pass: '{{env_var(''DBT_ENV_SECRET_PASSWORD'')}}'
+      port: 5432
+      schema: abu
+      threads: 1
+      type: postgres
+      user: '{{env_var(''DBT_USER'',''postgres'')}}'
+  target: psq-dev
